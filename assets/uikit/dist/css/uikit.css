@@ -12133,8 +12133,27 @@ td.uk-text-break {
     page-break-after: avoid;
   }
 }
-#hero {
-  padding: 20px;
-  background: #999;
-  border-bottom: 1px solid #bc519e;
+/***
+
+    ##### Nav bar #####
+
+***/
+.list {
+  background: #bc519e;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
+.list li {
+  display: inline-block;
+}
+/***
+
+    ##### Hero #####
+
+***/
+/***
+
+    ##### About #####
+
+***/
