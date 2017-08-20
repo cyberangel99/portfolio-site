@@ -5,3 +5,4 @@ custom
 themes.json
 .DS_Store
 /.idea
+npm-debug.log
