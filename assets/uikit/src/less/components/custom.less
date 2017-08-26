@@ -13,10 +13,23 @@
     li {
         display: inline-block;
     }
+    /*border not working*/
     a {
         display: block;
         padding: 0px 14px;
-        color:white;
+        color: @global-link-color;
+        transition: all ease .6s;
+        border: @global-border;
+        border-bottom: @global-border-width;
+    }
+    a:hover{
+        color: @global-link-hover-color;
+        transition: all ease .6s;
+        border: @global-border;
+        border-bottom: @global-border-width;
+    }
+    i{
+        padding: 0px 3px;
     }
 }
 

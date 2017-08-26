@@ -50,7 +50,7 @@ a:hover {
  */
 a,
 .uk-link {
-  color: #1e87f0;
+  color: white;
   text-decoration: none;
   cursor: pointer;
 }
@@ -331,7 +331,7 @@ hr,
   /* 4 */
   margin: 0 0 20px 0;
   border: 0;
-  border-top: 1px solid #e5e5e5;
+  border-top: 2px solid white;
 }
 /* Add margin if adjacent element */
 * + hr,
@@ -546,7 +546,7 @@ a.uk-link-reset:hover,
  ========================================================================== */
 .uk-heading-divider {
   padding-bottom: 10px;
-  border-bottom: 1px solid #e5e5e5;
+  border-bottom: 2px solid white;
 }
 /* Bullet
  ========================================================================== */
@@ -569,7 +569,7 @@ a.uk-link-reset:hover,
   /* 3 */
   height: 0.9em;
   margin-right: 10px;
-  border-left: 5px solid #e5e5e5;
+  border-left: 5px solid white;
 }
 /* Line
  ========================================================================== */
@@ -596,11 +596,11 @@ a.uk-link-reset:hover,
   content: "";
   /* 1 */
   position: absolute;
-  top: calc(50% - (1px / 2));
+  top: calc(50% - (2px / 2));
   /* 2 */
   width: 2000px;
   /* 3 */
-  border-bottom: 1px solid #e5e5e5;
+  border-bottom: 2px solid white;
 }
 .uk-heading-line > :before {
   right: 100%;
@@ -632,7 +632,7 @@ a.uk-link-reset:hover,
 .uk-divider-icon {
   position: relative;
   height: 20px;
-  background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2220%22%20height%3D%2220%22%20viewBox%3D%220%200%2020%2020%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0D%0A%20%20%20%20%3Ccircle%20fill%3D%22none%22%20stroke%3D%22%23e5e5e5%22%20stroke-width%3D%222%22%20cx%3D%2210%22%20cy%3D%2210%22%20r%3D%227%22%3E%3C%2Fcircle%3E%0D%0A%3C%2Fsvg%3E%0D%0A");
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2220%22%20height%3D%2220%22%20viewBox%3D%220%200%2020%2020%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0D%0A%20%20%20%20%3Ccircle%20fill%3D%22none%22%20stroke%3D%22white%22%20stroke-width%3D%222%22%20cx%3D%2210%22%20cy%3D%2210%22%20r%3D%227%22%3E%3C%2Fcircle%3E%0D%0A%3C%2Fsvg%3E%0D%0A");
   background-repeat: no-repeat;
   background-position: 50% 50%;
 }
@@ -642,7 +642,7 @@ a.uk-link-reset:hover,
   position: absolute;
   top: 50%;
   max-width: calc(50% - (50px / 2));
-  border-bottom: 1px solid #e5e5e5;
+  border-bottom: 2px solid white;
 }
 .uk-divider-icon::before {
   right: calc(50% + (50px / 2));
@@ -665,7 +665,7 @@ a.uk-link-reset:hover,
   display: inline-block;
   width: 100px;
   max-width: 100%;
-  border-top: 1px solid #e5e5e5;
+  border-top: 2px solid white;
   vertical-align: top;
 }
 /* ========================================================================
@@ -715,7 +715,7 @@ a.uk-link-reset:hover,
 .uk-list-divider > li:nth-child(n+2) {
   margin-top: 10px;
   padding-top: 10px;
-  border-top: 1px solid #e5e5e5;
+  border-top: 2px solid white;
 }
 /*
  * Striped
@@ -793,7 +793,7 @@ a.uk-link-reset:hover,
 .uk-description-list-divider > dt:nth-child(n+2) {
   margin-top: 20px;
   padding-top: 20px;
-  border-top: 1px solid #e5e5e5;
+  border-top: 2px solid white;
 }
 /* ========================================================================
    Component: Table
@@ -874,7 +874,7 @@ a.uk-link-reset:hover,
 .uk-table-divider > tr:not(:first-child),
 .uk-table-divider > :not(:first-child) > tr,
 .uk-table-divider > :first-child > tr:not(:first-child) {
-  border-top: 1px solid #e5e5e5;
+  border-top: 2px solid white;
 }
 /*
  * Striped
@@ -1964,7 +1964,7 @@ select.uk-form-width-xsmall {
   line-height: 1.5;
   background: none;
   /* 2 */
-  color: #1e87f0;
+  color: white;
 }
 /* Hover + Focus */
 .uk-button-link:hover,
@@ -2331,7 +2331,7 @@ select.uk-form-width-xsmall {
   position: absolute;
   top: 0;
   bottom: 0;
-  border-left: 1px solid #e5e5e5;
+  border-left: 2px solid white;
 }
 /* Vertical */
 .uk-grid-divider.uk-grid-stack > .uk-grid-margin::before {
@@ -2339,7 +2339,7 @@ select.uk-form-width-xsmall {
   position: absolute;
   left: 0;
   right: 0;
-  border-top: 1px solid #e5e5e5;
+  border-top: 2px solid white;
 }
 /*
  * Default
@@ -3535,7 +3535,7 @@ ul.uk-nav-sub {
  * Divider
  */
 .uk-nav-default .uk-nav-divider {
-  border-top: 1px solid #e5e5e5;
+  border-top: 2px solid white;
 }
 /*
  * Sublists
@@ -3576,7 +3576,7 @@ ul.uk-nav-sub {
  * Divider
  */
 .uk-nav-primary .uk-nav-divider {
-  border-top: 1px solid #e5e5e5;
+  border-top: 2px solid white;
 }
 /*
  * Sublists
@@ -3916,7 +3916,7 @@ ul.uk-nav-sub {
  * Divider
  */
 .uk-navbar-dropdown-nav .uk-nav-divider {
-  border-top: 1px solid #e5e5e5;
+  border-top: 2px solid white;
 }
 /*
  * Sublists
@@ -4029,7 +4029,7 @@ ul.uk-nav-sub {
   height: 1.5em;
   margin-left: 0px;
   margin-right: 20px;
-  border-left: 1px solid #e5e5e5;
+  border-left: 2px solid white;
 }
 /* Pill modifier
  ========================================================================== */
@@ -4533,7 +4533,7 @@ ul.uk-nav-sub {
  * Divider
  */
 .uk-dropdown-nav .uk-nav-divider {
-  border-top: 1px solid #e5e5e5;
+  border-top: 2px solid white;
 }
 /*
  * Sublists
@@ -6935,9 +6935,9 @@ td.uk-text-break {
  * 1. Double the column gap
  */
 .uk-column-divider {
-  -webkit-column-rule: 1px solid #e5e5e5;
-  -moz-column-rule: 1px solid #e5e5e5;
-  column-rule: 1px solid #e5e5e5;
+  -webkit-column-rule: 1px solid white;
+  -moz-column-rule: 1px solid white;
+  column-rule: 1px solid white;
   /* 1 */
   -webkit-column-gap: 60px;
   -moz-column-gap: 60px;
@@ -7407,7 +7407,7 @@ td.uk-text-break {
 .uk-panel-scrollable {
   height: 170px;
   padding: 10px;
-  border: 1px solid #e5e5e5;
+  border: 2px solid white;
   overflow: auto;
   -webkit-overflow-scrolling: touch;
   resize: both;
@@ -11618,6 +11618,7 @@ td.uk-text-break {
   list-style: none;
   margin: 0;
   padding: 0;
+  /*border not working*/
 }
 .list li {
   display: inline-block;
@@ -11626,6 +11627,18 @@ td.uk-text-break {
   display: block;
   padding: 0px 14px;
   color: white;
+  transition: all ease .6s;
+  border: white;
+  border-bottom: 2px;
+}
+.list a:hover {
+  color: #0f6ecd;
+  transition: all ease .6s;
+  border: white;
+  border-bottom: 2px;
+}
+.list i {
+  padding: 0px 3px;
 }
 /***
 
