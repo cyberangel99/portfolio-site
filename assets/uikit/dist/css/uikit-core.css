@@ -9,7 +9,7 @@
  */
 html {
   /* 1 */
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family: 'Lato', sans-serif;
   font-size: 16px;
   font-weight: normal;
   line-height: 1.5;
@@ -235,7 +235,7 @@ h5,
 h6,
 .uk-h6 {
   margin: 0 0 20px 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family: 'Lato', sans-serif;
   font-weight: normal;
   color: #333;
   text-transform: none;
@@ -3746,7 +3746,7 @@ ul.uk-nav-sub {
   padding: 0 15px;
   /* 3 */
   font-size: 16px;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family: 'Lato', sans-serif;
   /* 4 */
   text-decoration: none;
 }
@@ -7720,7 +7720,7 @@ td.uk-text-break {
  */
 .uk-logo {
   font-size: 1.5rem;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family: 'Lato', sans-serif;
   color: #666;
   /* 1 */
   text-decoration: none;
