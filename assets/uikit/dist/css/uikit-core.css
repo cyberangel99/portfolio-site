@@ -11618,7 +11618,6 @@ td.uk-text-break {
   list-style: none;
   margin: 0;
   padding: 0;
-  /*border not working*/
 }
 .list li {
   display: inline-block;
@@ -11628,19 +11627,18 @@ td.uk-text-break {
   padding: 0px 14px;
   color: white;
   transition: all ease .6s;
-  border: white;
-  border-bottom: 2px;
 }
 .list a:hover {
   color: #0f6ecd;
   transition: all ease .6s;
-  border: white;
-  border-bottom: 2px;
 }
 .list i {
   padding: 0px 3px;
 }
-/***
+.transformed a:hover {
+  transform: translateY(5px);
+}
+/**
 
     ##### Hero #####
 

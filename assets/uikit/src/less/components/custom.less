@@ -13,27 +13,29 @@
     li {
         display: inline-block;
     }
-    /*border not working*/
+
     a {
         display: block;
         padding: 0px 14px;
         color: @global-link-color;
         transition: all ease .6s;
-        border: @global-border;
-        border-bottom: @global-border-width;
     }
     a:hover{
         color: @global-link-hover-color;
-        transition: all ease .6s;
-        border: @global-border;
-        border-bottom: @global-border-width;
+        transition: all ease .6s; 
     }
+    
     i{
         padding: 0px 3px;
     }
 }
-
-/***
+.transformed a{
+        
+        &:hover{
+            transform: translateY(5px);
+        }
+      }
+/**
 
     ##### Hero #####
 

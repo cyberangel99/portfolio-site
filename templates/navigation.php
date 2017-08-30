@@ -1,7 +1,7 @@
 <div uk-sticky="animation: uk-animation-slide-top" class="nav uk-padding-small">
     <div uk-grid>
-        <div class="uk-width-2-3@m uk-text-right">
-            <ul class="list">
+        <div class="uk-width-2-3@m uk-text-right ">
+            <ul class="list transformed">
                 <li><a href="#hero"><i class="fa fa-home"></i>Home</a></li>
                 <li><a href="#about"><i class="fa fa-user-circle"></i>About</a></li>
                 <li><a href="#skills"><i class="fa fa-list"></i>Skills</a></li>
