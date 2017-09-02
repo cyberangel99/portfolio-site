@@ -12170,6 +12170,17 @@ td.uk-text-break {
     ##### Hero #####
 
 ***/
+#hero {
+  background: url("../../../images/heroimage.jpg");
+  min-height: 500px;
+}
+#hero h1 {
+  color: white;
+  padding-top: 10%;
+}
+#hero h2 {
+  color: white;
+}
 /***
 
     ##### About #####
