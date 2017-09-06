@@ -9,7 +9,7 @@
  */
 html {
   /* 1 */
-  font-family: 'Lato', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   font-weight: normal;
   line-height: 1.5;
@@ -235,7 +235,7 @@ h5,
 h6,
 .uk-h6 {
   margin: 0 0 20px 0;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: normal;
   color: #333;
   text-transform: none;
@@ -3746,7 +3746,7 @@ ul.uk-nav-sub {
   padding: 0 15px;
   /* 3 */
   font-size: 16px;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   /* 4 */
   text-decoration: none;
 }
@@ -7720,7 +7720,7 @@ td.uk-text-break {
  */
 .uk-logo {
   font-size: 1.5rem;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   color: #666;
   /* 1 */
   text-decoration: none;
@@ -11644,7 +11644,7 @@ td.uk-text-break {
 
 ***/
 #hero {
-  background: url("../../../images/heroimage.jpg");
+  background: url("../../../images/heroimage.jpg") center center no-repeat;
   min-height: 500px;
 }
 #hero h1 {
@@ -11659,3 +11659,6 @@ td.uk-text-break {
     ##### About #####
 
 ***/
+.me {
+  background-color: #f9f9f9;
+}
