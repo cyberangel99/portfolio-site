@@ -11659,6 +11659,9 @@ td.uk-text-break {
     #### Welcome ####
 
 ***/
+#welcome .pic {
+  background: grey;
+}
 /***
 
     ##### About #####
