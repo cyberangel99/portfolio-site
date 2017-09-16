@@ -11675,11 +11675,17 @@ td.uk-text-break {
     ##### Skills #####
 
 ***/
+#skills .gear {
+  background-color: grey;
+}
 /***
 
     ##### portfolio #####
 
 ***/
+#portfolio .header {
+  text-align: center;
+}
 /***
 
     ##### contact #####
