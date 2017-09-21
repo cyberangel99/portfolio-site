@@ -18,11 +18,11 @@
         display: block;
         padding: 0px 14px;
         color: @global-link-color;
-        transition: all ease .6s;
+        transition: all ease .4s;
     }
     a:hover{
         color: @global-link-hover-color;
-        transition: all ease .6s; 
+        transition: all ease .4s; 
     }
     
     i{
@@ -32,9 +32,27 @@
 .transformed a{
         
         &:hover{
-            transform: translateY(5px);
+            transform: translateY(2px);
         }
       }
+.canvas {
+    color: white;
+}
+/***  ###offcanvas###
+
+***/
+.color {
+    background: #5a9ae2;
+
+.links {
+
+    li {
+        padding: 15px;
+        list-style-type: none;
+    }
+}
+}
+
 /**
 
     ##### Hero #####
@@ -103,5 +121,18 @@
 
 ***/
 #contact {
-    
+}
+
+/*** 
+    #### footer#### 
+
+***/
+#footer {
+    background-color: @global-primary-background;
+    .info {
+        color: white;
+        text-align: center;
+    }
+
+
 }

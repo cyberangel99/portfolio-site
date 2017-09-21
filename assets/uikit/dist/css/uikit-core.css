@@ -1570,13 +1570,13 @@ select.uk-form-width-xsmall {
 .uk-radio:checked,
 .uk-checkbox:checked,
 .uk-checkbox:indeterminate {
-  background-color: #bc519e;
+  background-color: #ffa97f;
 }
 /* Focus */
 .uk-radio:checked:focus,
 .uk-checkbox:checked:focus,
 .uk-checkbox:indeterminate:focus {
-  background-color: #9d3d82;
+  background-color: #ff874c;
 }
 /*
  * Icons
@@ -1853,19 +1853,19 @@ select.uk-form-width-xsmall {
  * Primary
  */
 .uk-button-primary {
-  background-color: #bc519e;
+  background-color: #ffa97f;
   color: #fff;
 }
 /* Hover + Focus */
 .uk-button-primary:hover,
 .uk-button-primary:focus {
-  background-color: #b04491;
+  background-color: #ff9865;
   color: #fff;
 }
 /* OnClick + Active */
 .uk-button-primary:active,
 .uk-button-primary.uk-active {
-  background-color: #9d3d82;
+  background-color: #ff874c;
   color: #fff;
 }
 /*
@@ -2092,7 +2092,7 @@ select.uk-form-width-xsmall {
  * Primary
  */
 .uk-section-primary {
-  background: #bc519e;
+  background: #ffa97f;
 }
 /*
  * Secondary
@@ -2601,7 +2601,7 @@ select.uk-form-width-xsmall {
  * Primary
  */
 .uk-tile-primary {
-  background: #bc519e;
+  background: #ffa97f;
 }
 /*
  * Secondary
@@ -2715,14 +2715,14 @@ select.uk-form-width-xsmall {
  * Primary
  */
 .uk-card-primary {
-  background: #bc519e;
+  background: #ffa97f;
   color: #fff;
 }
 .uk-card-primary .uk-card-title {
   color: #fff;
 }
 .uk-card-primary.uk-card-hover:hover {
-  background-color: #b04491;
+  background-color: #ff9865;
 }
 /*
  * Secondary
@@ -2929,8 +2929,8 @@ select.uk-form-width-xsmall {
  * Primary
  */
 .uk-alert-primary {
-  background: #f3e0ee;
-  color: #bc519e;
+  background: #ffffff;
+  color: #ffa97f;
 }
 /*
  * Success
@@ -2969,7 +2969,7 @@ select.uk-form-width-xsmall {
   border-radius: 500px;
   vertical-align: middle;
   /* 1 */
-  background: #bc519e;
+  background: #ffa97f;
   color: #fff;
   font-size: 0.875rem;
   /* 2 */
@@ -2998,7 +2998,7 @@ select.uk-form-width-xsmall {
 .uk-label {
   display: inline-block;
   padding: 0 10px;
-  background: #bc519e;
+  background: #ffa97f;
   line-height: 1.5;
   font-size: 0.875rem;
   color: #fff;
@@ -4051,7 +4051,7 @@ ul.uk-nav-sub {
 }
 /* Active */
 .uk-subnav-pill > .uk-active > a {
-  background-color: #bc519e;
+  background-color: #ffa97f;
   color: #fff;
 }
 /* Disabled
@@ -5337,7 +5337,7 @@ ul.uk-nav-sub {
  * Primary
  */
 .uk-notification-message-primary {
-  color: #bc519e;
+  color: #ffa97f;
 }
 /*
  * Success
@@ -5470,14 +5470,14 @@ ul.uk-nav-sub {
  * 1. Remove right border in IE11 and Edge
  */
 .uk-progress::-webkit-progress-value {
-  background-color: #bc519e;
+  background-color: #ffa97f;
   transition: width 0.6s ease;
 }
 .uk-progress::-moz-progress-bar {
-  background-color: #bc519e;
+  background-color: #ffa97f;
 }
 .uk-progress::-ms-fill {
-  background-color: #bc519e;
+  background-color: #ffa97f;
   transition: width 0.6s ease;
   /* 1 */
   border: 0;
@@ -6748,7 +6748,7 @@ ul.uk-nav-sub {
   color: #999 !important;
 }
 .uk-text-primary {
-  color: #bc519e !important;
+  color: #ffa97f !important;
 }
 .uk-text-success {
   color: #32d296 !important;
@@ -6774,11 +6774,11 @@ ul.uk-nav-sub {
   /* 2 */
   display: inline-block;
   /* 3 */
-  color: #bc519e !important;
+  color: #ffa97f !important;
 }
 @supports (-webkit-background-clip: text) {
   .uk-text-background {
-    background-color: #bc519e;
+    background-color: #ffa97f;
   }
 }
 /* Alignment modifiers
@@ -7142,7 +7142,7 @@ td.uk-text-break {
   background-color: #f8f8f8;
 }
 .uk-background-primary {
-  background-color: #bc519e;
+  background-color: #ffa97f;
 }
 .uk-background-secondary {
   background-color: #222;
@@ -11612,7 +11612,7 @@ td.uk-text-break {
 
 ***/
 .nav {
-  background-color: #bc519e;
+  background-color: #ffa97f;
 }
 .list {
   list-style: none;
@@ -11626,17 +11626,30 @@ td.uk-text-break {
   display: block;
   padding: 0px 14px;
   color: white;
-  transition: all ease .6s;
+  transition: all ease .4s;
 }
 .list a:hover {
   color: #0f6ecd;
-  transition: all ease .6s;
+  transition: all ease .4s;
 }
 .list i {
   padding: 0px 3px;
 }
 .transformed a:hover {
-  transform: translateY(5px);
+  transform: translateY(2px);
+}
+.canvas {
+  color: white;
+}
+/***  ###offcanvas###
+
+***/
+.color {
+  background: #5a9ae2;
+}
+.color .links li {
+  padding: 15px;
+  list-style-type: none;
 }
 /**
 
@@ -11691,3 +11704,14 @@ td.uk-text-break {
     ##### contact #####
 
 ***/
+/*** 
+    #### footer#### 
+
+***/
+#footer {
+  background-color: #ffa97f;
+}
+#footer .info {
+  color: white;
+  text-align: center;
+}
