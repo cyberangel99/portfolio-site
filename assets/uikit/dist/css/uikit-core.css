@@ -1570,13 +1570,13 @@ select.uk-form-width-xsmall {
 .uk-radio:checked,
 .uk-checkbox:checked,
 .uk-checkbox:indeterminate {
-  background-color: #ffa97f;
+  background-color: #d8651e;
 }
 /* Focus */
 .uk-radio:checked:focus,
 .uk-checkbox:checked:focus,
 .uk-checkbox:indeterminate:focus {
-  background-color: #ff874c;
+  background-color: #ab5018;
 }
 /*
  * Icons
@@ -1853,19 +1853,19 @@ select.uk-form-width-xsmall {
  * Primary
  */
 .uk-button-primary {
-  background-color: #ffa97f;
+  background-color: #d8651e;
   color: #fff;
 }
 /* Hover + Focus */
 .uk-button-primary:hover,
 .uk-button-primary:focus {
-  background-color: #ff9865;
+  background-color: #c25b1b;
   color: #fff;
 }
 /* OnClick + Active */
 .uk-button-primary:active,
 .uk-button-primary.uk-active {
-  background-color: #ff874c;
+  background-color: #ab5018;
   color: #fff;
 }
 /*
@@ -2092,7 +2092,7 @@ select.uk-form-width-xsmall {
  * Primary
  */
 .uk-section-primary {
-  background: #ffa97f;
+  background: #d8651e;
 }
 /*
  * Secondary
@@ -2601,7 +2601,7 @@ select.uk-form-width-xsmall {
  * Primary
  */
 .uk-tile-primary {
-  background: #ffa97f;
+  background: #d8651e;
 }
 /*
  * Secondary
@@ -2715,14 +2715,14 @@ select.uk-form-width-xsmall {
  * Primary
  */
 .uk-card-primary {
-  background: #ffa97f;
+  background: #d8651e;
   color: #fff;
 }
 .uk-card-primary .uk-card-title {
   color: #fff;
 }
 .uk-card-primary.uk-card-hover:hover {
-  background-color: #ff9865;
+  background-color: #c25b1b;
 }
 /*
  * Secondary
@@ -2929,8 +2929,8 @@ select.uk-form-width-xsmall {
  * Primary
  */
 .uk-alert-primary {
-  background: #ffffff;
-  color: #ffa97f;
+  background: #f7decf;
+  color: #d8651e;
 }
 /*
  * Success
@@ -2969,7 +2969,7 @@ select.uk-form-width-xsmall {
   border-radius: 500px;
   vertical-align: middle;
   /* 1 */
-  background: #ffa97f;
+  background: #d8651e;
   color: #fff;
   font-size: 0.875rem;
   /* 2 */
@@ -2998,7 +2998,7 @@ select.uk-form-width-xsmall {
 .uk-label {
   display: inline-block;
   padding: 0 10px;
-  background: #ffa97f;
+  background: #d8651e;
   line-height: 1.5;
   font-size: 0.875rem;
   color: #fff;
@@ -4051,7 +4051,7 @@ ul.uk-nav-sub {
 }
 /* Active */
 .uk-subnav-pill > .uk-active > a {
-  background-color: #ffa97f;
+  background-color: #d8651e;
   color: #fff;
 }
 /* Disabled
@@ -5337,7 +5337,7 @@ ul.uk-nav-sub {
  * Primary
  */
 .uk-notification-message-primary {
-  color: #ffa97f;
+  color: #d8651e;
 }
 /*
  * Success
@@ -5470,14 +5470,14 @@ ul.uk-nav-sub {
  * 1. Remove right border in IE11 and Edge
  */
 .uk-progress::-webkit-progress-value {
-  background-color: #ffa97f;
+  background-color: #d8651e;
   transition: width 0.6s ease;
 }
 .uk-progress::-moz-progress-bar {
-  background-color: #ffa97f;
+  background-color: #d8651e;
 }
 .uk-progress::-ms-fill {
-  background-color: #ffa97f;
+  background-color: #d8651e;
   transition: width 0.6s ease;
   /* 1 */
   border: 0;
@@ -6748,7 +6748,7 @@ ul.uk-nav-sub {
   color: #999 !important;
 }
 .uk-text-primary {
-  color: #ffa97f !important;
+  color: #d8651e !important;
 }
 .uk-text-success {
   color: #32d296 !important;
@@ -6774,11 +6774,11 @@ ul.uk-nav-sub {
   /* 2 */
   display: inline-block;
   /* 3 */
-  color: #ffa97f !important;
+  color: #d8651e !important;
 }
 @supports (-webkit-background-clip: text) {
   .uk-text-background {
-    background-color: #ffa97f;
+    background-color: #d8651e;
   }
 }
 /* Alignment modifiers
@@ -7142,7 +7142,7 @@ td.uk-text-break {
   background-color: #f8f8f8;
 }
 .uk-background-primary {
-  background-color: #ffa97f;
+  background-color: #d8651e;
 }
 .uk-background-secondary {
   background-color: #222;
@@ -11612,7 +11612,7 @@ td.uk-text-break {
 
 ***/
 .nav {
-  background-color: #ffa97f;
+  background-color: #d8651e;
 }
 .list {
   list-style: none;
@@ -11657,8 +11657,9 @@ td.uk-text-break {
 
 ***/
 #hero {
-  background: url("../../../images/heroimage.jpg") center center no-repeat;
+  background: url("../../../images/palmhero.jpg") center center no-repeat;
   min-height: 500px;
+  background-size: cover;
 }
 #hero h1 {
   color: white;
@@ -11666,6 +11667,10 @@ td.uk-text-break {
 }
 #hero h2 {
   color: white;
+}
+#hero i {
+  color: white;
+  padding: 10px 10px;
 }
 /***
 
@@ -11680,6 +11685,9 @@ td.uk-text-break {
     ##### About #####
 
 ***/
+#about .font {
+  font-size: 13px;
+}
 .me {
   background-color: #f9f9f9;
 }
@@ -11709,7 +11717,7 @@ td.uk-text-break {
 
 ***/
 #footer {
-  background-color: #ffa97f;
+  background-color: #d8651e;
 }
 #footer .info {
   color: white;
