@@ -1,4 +1,4 @@
-<div uk-sticky="animation: uk-animation-slide-top" class="nav uk-padding-small">
+<div uk-sticky="animation: uk-animation-slide-top; top: 5;" class="nav uk-padding-small">
     <div uk-grid>
         <div class="uk-width-1-1@m uk-text-center">
             <ul class="list transformed uk-visible@s">
