@@ -1,153 +1,181 @@
-/***
+    /***
 
     ##### Nav bar #####
 
 ***/
-.nav{
-    background-color: @global-primary-background;
-}
-.list{
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    li {
-        display: inline-block;
-    }
-
-    a {
-        display: block;
-        padding: 0px 14px;
-        color: @global-link-color;
-        transition: all ease .4s;
-    }
-    a:hover{
-        color: @global-link-hover-color;
-        transition: all ease .4s; 
+    
+    .nav {
+        background-color: @global-primary-background;
     }
     
-    i{
-        padding: 0px 3px;
-    }
-}
-.transformed a{
-        
-        &:hover{
-            transform: translateY(2px);
+    .list {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        font-size: 12px;
+        li {
+            display: inline-block;
         }
-      }
-.canvas {
-    color: white;
-}
-/***  ###offcanvas###
+        a {
+            display: block;
+            padding: 0px 14px;
+            color: @global-link-color;
+            transition: all ease .4s;
+            text-decoration: none;
+        }
+        a:hover {
+            color: @global-link-hover-color;
+            transition: all ease .4s;
+        }
+        i {
+            padding: 0px 3px;
+        }
+    }
+    
+    .transformed a {
+        &:hover {
+            transform: translateX(2px);
+        }
+    }
+    
+    .canvas {
+        color: white;
+    }
+    /***  ###offcanvas###
 
 ***/
-.color {
-    background: #5a9ae2;
-
-.links {
-
-    li {
-        padding: 15px;
-        list-style-type: none;
+    
+    #offcanvas {
+        .color {
+            background: #4589b0;
+            h1 {
+                font-size: 29px;
+            }
+        }
+        .links {
+            li {
+                padding: 15px;
+                list-style-type: none;
+            }
+            a {
+                display: block;
+                padding: 0px 14px;
+                color: @global-link-color;
+                transition: all ease .4s;
+                text-decoration: none;
+            }
+            a:hover {
+                color: @global-link-hover-color;
+                transition: all ease .4s;
+            }
+        }
+        .canvaslinks a {
+            &:hover {
+                transform: translateX(2px);
+            }
+        }
+        img {
+            border: 2px solid #fff;
+        }
     }
-}
-}
-
-/**
+    /**
 
     ##### Hero #####
 
 ***/
-#hero {
-    background: url("../../../../images/palmhero.jpg") center center no-repeat;
-    min-height: 500px;
-    background-size: cover;
-    h1{
-       color:white; 
-       padding-top: 10%;
-    }
-    h2{
-        color:white; 
-    }
-    button {
-        padding:10px;
-    }
-    .social-icons {
-        i{ 
+    
+    #hero {
+        background: url("../../../../images/palmhero.jpg") center center no-repeat;
+        min-height: 500px;
+        background-size: cover;
+        h1 {
             color: white;
-            padding: 10px 10px;
+            padding-top: 10%;
+        }
+        h2 {
+            color: white;
+            margin-top: 0;
+        }
+        button {
+            padding: 8px;
+            font-size: 10px;
+        }
+        .social-icons {
+            li {
+                display: inline-block;
+                color: white;
+                padding: 8px;
+                font-size: 23px;
+            }
+        }
+        .hero-btn i {
+            vertical-align: middle;
         }
     }
-    .hero-btn i {
-        vertical-align: middle;
-    }
-}
-/***
+    /***
 
     #### Welcome ####
 
 ***/
-
-#welcome {
-
-    .pic {
-    background: grey;
+    
+    #welcome {
+        .pic {
+            background: grey;
+        }
     }
-}
-
-/***
+    /***
 
     ##### About #####
 
 ***/
-#about {
-.font {
-    font-size: 13px;
-}
-}
-.me{
-    background-color: #f9f9f9;
-}
-
-/***
+    
+    #about {
+        .font {
+            font-size: 13px;
+        }
+    }
+    
+    .me {
+        background-color: #f9f9f9;
+    }
+    /***
 
     ##### Skills #####
 
 ***/
-#skills {
-
-    .gear {
-        background-color: grey;
+    
+    #skills {
+        .gear {
+            background-color: grey;
+        }
     }
-}
-/***
+    /***
 
     ##### portfolio #####
 
 ***/
-#portfolio {
-    .header {
-        text-align: center;
+    
+    #portfolio {
+        .header {
+            text-align: center;
+        }
     }
-}
-/***
+    /***
 
     ##### contact #####
 
 ***/
-#contact {
-}
-
-/*** 
+    
+    #contact {}
+    /*** 
     #### footer#### 
 
 ***/
-#footer {
-    background-color: @global-primary-background;
-    .info {
-        color: white;
-        text-align: center;
+    
+    #footer {
+        background-color: @global-primary-background;
+        .info {
+            color: white;
+            text-align: center;
+        }
     }
-
-
-}
