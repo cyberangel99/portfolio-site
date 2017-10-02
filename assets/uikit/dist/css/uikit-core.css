@@ -1,3 +1,38 @@
+@font-face {
+  font-family: 'icomoon';
+  src: url('../../../fonts/icomoon.eot?4fmdgw');
+  src: url('../../../fonts/icomoon.eot?4fmdgw#iefix') format('embedded-opentype'), url('../../../fonts/icomoon.ttf?4fmdgw') format('truetype'), url('../../../fonts/icomoon.woff?4fmdgw') format('woff'), url('../../../fonts/icomoon.svg?4fmdgw#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+[class^="icon-"],
+[class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-logo .path1:before {
+  content: "\e900";
+  color: #1a3342;
+}
+.icon-logo .path2:before {
+  content: "\e901";
+  color: #1a3342;
+  margin-left: -1.81410156em;
+}
+.icon-logo .path3:before {
+  content: "\e902";
+  color: #f29400;
+  margin-left: -1.64410156em;
+}
 /* ========================================================================
    Component: Base
  ========================================================================== */
@@ -1873,19 +1908,19 @@ select.uk-form-width-xsmall {
  * Secondary
  */
 .uk-button-secondary {
-  background-color: #222;
+  background-color: #f29400;
   color: #fff;
 }
 /* Hover + Focus */
 .uk-button-secondary:hover,
 .uk-button-secondary:focus {
-  background-color: #151515;
+  background-color: #d98400;
   color: #fff;
 }
 /* OnClick + Active */
 .uk-button-secondary:active,
 .uk-button-secondary.uk-active {
-  background-color: #080808;
+  background-color: #bf7500;
   color: #fff;
 }
 /*
@@ -2099,7 +2134,7 @@ select.uk-form-width-xsmall {
  * Secondary
  */
 .uk-section-secondary {
-  background: #222;
+  background: #f29400;
 }
 /*
  * Indicate that an image or video is used as background
@@ -2608,7 +2643,7 @@ select.uk-form-width-xsmall {
  * Secondary
  */
 .uk-tile-secondary {
-  background: #222;
+  background: #f29400;
 }
 /* ========================================================================
    Component: Card
@@ -2729,14 +2764,14 @@ select.uk-form-width-xsmall {
  * Secondary
  */
 .uk-card-secondary {
-  background: #222;
+  background: #f29400;
   color: #fff;
 }
 .uk-card-secondary .uk-card-title {
   color: #fff;
 }
 .uk-card-secondary.uk-card-hover:hover {
-  background-color: #151515;
+  background-color: #d98400;
 }
 /* Size modifier
  ========================================================================== */
@@ -2878,7 +2913,7 @@ select.uk-form-width-xsmall {
  */
 .uk-marker {
   padding: 5px;
-  background: #222;
+  background: #f29400;
   color: #fff;
 }
 /* Hover + Focus */
@@ -3055,7 +3090,7 @@ select.uk-form-width-xsmall {
  * Primary
  */
 .uk-overlay-primary {
-  background: rgba(34, 34, 34, 0.8);
+  background: rgba(242, 148, 0, 0.8);
 }
 /* ========================================================================
    Component: Article
@@ -4983,7 +5018,7 @@ ul.uk-nav-sub {
   box-sizing: border-box;
   width: 270px;
   padding: 20px 20px;
-  background: #222;
+  background: #f29400;
   /* 3 */
   overflow-y: auto;
   -webkit-overflow-scrolling: touch;
@@ -7146,7 +7181,7 @@ td.uk-text-break {
   background-color: #4589B0;
 }
 .uk-background-secondary {
-  background-color: #222;
+  background-color: #f29400;
 }
 /* Size
  ========================================================================== */
@@ -11615,11 +11650,23 @@ td.uk-text-break {
 .nav {
   background-color: #4589B0;
 }
+.nav .icon-logo {
+  font-size: 25px;
+}
+.nav .logo {
+  max-height: 24px;
+}
+.nav .firstname {
+  color: #fff;
+}
+.nav .lastname {
+  color: #f29400;
+}
 .list {
   list-style: none;
   margin: 0;
   padding: 0;
-  font-size: 12px;
+  font-size: 15px;
 }
 .list li {
   display: inline-block;
@@ -11693,17 +11740,23 @@ td.uk-text-break {
   margin-top: 0;
 }
 #hero button {
-  padding: 8px;
-  font-size: 10px;
+  padding: 14px;
+  font-size: 14px;
 }
 #hero .social-icons li {
   display: inline-block;
   color: white;
   padding: 8px;
-  font-size: 23px;
+  font-size: 32px;
 }
 #hero .hero-btn i {
   vertical-align: middle;
+}
+#hero .f-name {
+  color: fff;
+}
+#hero .l-name {
+  color: #f29400;
 }
 /***
 

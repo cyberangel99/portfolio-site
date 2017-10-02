@@ -1,3 +1,8 @@
 $(document).ready(function(){
-    //Rest of your code
+    /* Smooth scrolling */
+    var options = {
+        offset: 56,
+        duration: 1500
+    };
+    UIkit.scroll($(".transformed a"), options);
 });
