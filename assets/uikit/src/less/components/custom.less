@@ -9,14 +9,14 @@
         .icon-logo {
             font-size: 25px;
         }
-        .logo { 
+        .logo {
             max-height: 24px;
         }
         .firstname {
-            color:#fff;
+            color: #fff;
         }
         .lastname {
-            color:@global-secondary-background;
+            color: @global-secondary-background;
         }
     }
     
@@ -80,6 +80,11 @@
                 color: @global-link-hover-color;
                 transition: all ease .4s;
             }
+            .transformed a {
+                &:hover {
+                    transform: translateY(2px);
+                }
+            }
         }
         .canvaslinks a {
             &:hover {
@@ -88,6 +93,17 @@
         }
         img {
             border: 2px solid #fff;
+        }
+        .uk-heading-bullet {
+            &:before {
+                border-left-color: @global-secondary-background;
+            }
+        }
+        .f-name {
+            color: #fff;
+        }
+        .l-name {
+            color: @global-secondary-background;
         }
     }
     /**
@@ -124,7 +140,7 @@
             vertical-align: middle;
         }
         .f-name {
-            color:fff;
+            color: #fff;
         }
         .l-name {
             color: @global-secondary-background;
@@ -135,38 +151,21 @@
     #### Welcome ####
 
 ***/
-    
-    #welcome {
-        .pic {
-            background: grey;
-        }
-    }
     /***
 
     ##### About #####
 
 ***/
-    
-    #about {
-        .font {
-            font-size: 13px;
-        }
-    }
-    
-    .me {
-        background-color: #f9f9f9;
-    }
     /***
 
     ##### Skills #####
 
 ***/
-    
-    #skills {
-        .gear {
-            background-color: grey;
-        }
+    .uk-list {
+        list-style: none;
     }
+
+
     /***
 
     ##### portfolio #####
@@ -178,6 +177,17 @@
             text-align: center;
         }
     }
+ /***
+
+    ##### callout #####
+
+***/
+    #callout {
+        .callout-btn {
+
+        }
+    }
+
     /***
 
     ##### contact #####

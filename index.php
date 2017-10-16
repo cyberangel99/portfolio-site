@@ -5,5 +5,6 @@
 <?php require('templates/about.php') ?>
 <?php require('templates/skills.php'); ?>
 <?php require('templates/portfolio.php'); ?>
+<?php require('templates/callout.php'); ?>
 <?php require('templates/contact.php'); ?>
 <?php require('templates/footer.php'); ?>

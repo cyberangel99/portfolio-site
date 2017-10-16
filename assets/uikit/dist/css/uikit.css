@@ -12242,11 +12242,23 @@ td.uk-text-break {
   color: #afcedf;
   transition: all ease .4s;
 }
+#offcanvas .links .transformed a:hover {
+  transform: translateY(2px);
+}
 #offcanvas .canvaslinks a:hover {
   transform: translateX(2px);
 }
 #offcanvas img {
   border: 2px solid #fff;
+}
+#offcanvas .uk-heading-bullet:before {
+  border-left-color: #f29400;
+}
+#offcanvas .f-name {
+  color: #fff;
+}
+#offcanvas .l-name {
+  color: #f29400;
 }
 /**
 
@@ -12280,7 +12292,7 @@ td.uk-text-break {
   vertical-align: middle;
 }
 #hero .f-name {
-  color: fff;
+  color: #fff;
 }
 #hero .l-name {
   color: #f29400;
@@ -12290,27 +12302,18 @@ td.uk-text-break {
     #### Welcome ####
 
 ***/
-#welcome .pic {
-  background: grey;
-}
 /***
 
     ##### About #####
 
 ***/
-#about .font {
-  font-size: 13px;
-}
-.me {
-  background-color: #f9f9f9;
-}
 /***
 
     ##### Skills #####
 
 ***/
-#skills .gear {
-  background-color: grey;
+.uk-list {
+  list-style: none;
 }
 /***
 
@@ -12320,6 +12323,11 @@ td.uk-text-break {
 #portfolio .header {
   text-align: center;
 }
+/***
+
+    ##### callout #####
+
+***/
 /***
 
     ##### contact #####

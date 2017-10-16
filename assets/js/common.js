@@ -5,4 +5,5 @@ $(document).ready(function(){
         duration: 1500
     };
     UIkit.scroll($(".transformed a"), options);
+    UIkit.scroll($("#offcanvas .links a"), options);
 });

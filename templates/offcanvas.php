@@ -1,6 +1,6 @@
 <section id="offcanvas" uk-offcanvas="mode: push; overlay: true">
     <div class="uk-offcanvas-bar uk-scroll color">
-        <h1 class="uk-heading-bullet">Mary A. Green</h1>
+        <h1 class="uk-heading-bullet"><span class="f-name">Mary</span> <span class="l-name">Green</span></h1>
         <img class="uk-border-circle uk-width-small uk-align-center uk-margin-small" src="./assets/images/avatar.jpg" alt="avatar">
         <h4 class="uk-text-center uk-margin-remove">Portfolio</h4>
         <ul class="uk-padding links canvaslinks">
