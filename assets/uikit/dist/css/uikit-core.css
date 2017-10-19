@@ -11678,6 +11678,9 @@ td.uk-text-break {
   transition: all ease .4s;
   text-decoration: none;
 }
+.list a.uk-active {
+  color: #ffa10d;
+}
 .list a:hover {
   color: #afcedf;
   transition: all ease .4s;
@@ -11801,11 +11804,25 @@ td.uk-text-break {
     ##### callout #####
 
 ***/
+#callout {
+  background-color: #4589B0;
+}
+#callout .callout-btn {
+  background-color: #f29400;
+  color: white;
+  padding: 11px;
+}
+#callout .text {
+  color: white;
+}
 /***
 
     ##### contact #####
 
 ***/
+#contact .email-link {
+  color: #4589B0;
+}
 /*** 
     #### footer#### 
 

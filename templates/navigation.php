@@ -1,7 +1,7 @@
 <nav uk-sticky="animation: uk-animation-slide-top; top: 5;" class="nav uk-padding-small">
     <div uk-grid>
         <div class="uk-width-3-4@s uk-text-right">
-            <ul class="list transformed uk-visible@s">
+            <ul class="list transformed uk-visible@s navigation" uk-scrollspy-nav="closest: li > a; scroll: true; offset: 56">
                 <li><a href="#hero"><i class="fa fa-home"></i>Home</a></li>
                 <li><a href="#welcome"><i class="fa fa-cogs"></i>Welcome</a></li>
                 <li><a href="#about"><i class="fa fa-user-circle"></i>About</a></li>
