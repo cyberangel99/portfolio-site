@@ -12347,11 +12347,16 @@ td.uk-text-break {
     ##### contact #####
 
 ***/
-#contact .email-link {
+#contact .email-link a {
   color: #4589B0;
+  text-decoration: underline;
+}
+#contact .linkin a {
+  color: #4589B0;
+  text-decoration: underline;
 }
 /*** 
-    #### footer#### 
+    ### footer#### 
 
 ***/
 #footer {
