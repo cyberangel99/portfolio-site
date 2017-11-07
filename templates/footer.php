@@ -14,6 +14,7 @@
       <p class="uk-margin-remove made">Made with <i class="fa fa-heart"></i> by UIkit, HTML, CSS, LESS, and JQuery.</p>
     </div> <!-- /.info -->
   </div> <!-- /uk-grid-large -->
+  <a href="#hero" uk-totop uk-scroll uk-icon title="Back to top" class="top"></a>
 </section>
 
 

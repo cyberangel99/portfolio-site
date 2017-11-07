@@ -12381,12 +12381,22 @@ td.uk-text-break {
   color: white;
   text-align: center;
 }
+#footer .info .made {
+  padding: 10px;
+}
 #footer .social-footer li {
   display: inline-block;
   color: white;
   padding: 8px;
   font-size: 32px;
 }
-#footer .social-footer .made {
-  padding: 10px;
+#footer .top {
+  position: fixed;
+  right: 3%;
+  bottom: 0;
+  z-index: 9999;
+  color: #ffff;
+  background: #1481A5;
+  padding: 11px;
+  border-radius: 5px 5px 0 0;
 }
