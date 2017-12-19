@@ -9,7 +9,7 @@
                 <li>CSS</li>
                 <li>JavaScript</li>
                 <li>jQuery</li>
-                <li>SASS</li>
+                <li>SASS/LESS</li>
                 <li>UIkit</li>
                 <li>Bootstrap</li>
             </ul>

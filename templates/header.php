@@ -9,7 +9,7 @@
   <!-- CSS -->
   <link rel="shortcut icon" href="./assets/images/favicon.png"/>
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
-   <link rel="stylesheet" type="text/css" href="./assets/css/font-awesome.min.css" />
+  <link rel="stylesheet" type="text/css" href="./assets/css/font-awesome.min.css" />
   <link rel="stylesheet" type="text/css" href="./assets/uikit/dist/css/uikit.min.css" />
 </head>
 
