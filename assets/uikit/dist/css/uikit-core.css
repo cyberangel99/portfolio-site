@@ -11779,7 +11779,8 @@ td.uk-text-break {
 
 ***/
 #welcome {
-  background-color: #f2f2f2;
+  background-color: #F0F0F0;
+  height: 100vh;
 }
 /***
 
@@ -11787,7 +11788,8 @@ td.uk-text-break {
 
 ***/
 #about {
-  background-color: #f2f2f2;
+  background-color: #F0F0F0;
+  height: 100vh;
 }
 /***
 
@@ -11795,7 +11797,8 @@ td.uk-text-break {
 
 ***/
 #skills {
-  background-color: #f2f2f2;
+  background-color: #F0F0F0;
+  height: 100vh;
 }
 .uk-list {
   list-style: none;
@@ -11833,15 +11836,17 @@ td.uk-text-break {
 
 ***/
 #contact {
-  background-color: #f2f2f2;
+  background-color: #F0F0F0;
+  height: 100vh;
+  overflow: hidden;
 }
-#contact .email-link a {
+#contact .Form input {
   color: #4589B0;
-  text-decoration: underline;
+  margin-right: 50%;
 }
-#contact .linkin a {
-  color: #4589B0;
-  text-decoration: underline;
+#contact .error {
+  border: 1px solid #C21807;
+  transition: all ease .4s;
 }
 /*** 
     ### footer#### 
