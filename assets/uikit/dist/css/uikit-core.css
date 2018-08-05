@@ -11780,7 +11780,6 @@ td.uk-text-break {
 ***/
 #welcome {
   background-color: #F0F0F0;
-  height: 100vh;
 }
 /***
 
@@ -11789,7 +11788,6 @@ td.uk-text-break {
 ***/
 #about {
   background-color: #F0F0F0;
-  height: 100vh;
 }
 /***
 
@@ -11798,7 +11796,6 @@ td.uk-text-break {
 ***/
 #skills {
   background-color: #F0F0F0;
-  height: 100vh;
 }
 .uk-list {
   list-style: none;
@@ -11837,7 +11834,6 @@ td.uk-text-break {
 ***/
 #contact {
   background-color: #F0F0F0;
-  height: 100vh;
   overflow: hidden;
 }
 #contact .Form input {
