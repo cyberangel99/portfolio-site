@@ -13,8 +13,7 @@
                 <li><a href="https://github.com/cyberangel99"><i class="fa fa-github" aria-hidden="true"></a></i></li>
                 <li><a href="https://www.linkedin.com/in/mary-green-4295ab149/"><i class="fa fa-linkedin" aria-hidden="true"></a></i></li>
                 <li><a href="https://twitter.com/magreen451"><i class="fa fa-twitter" aria-hidden="true"></a></i></li>
-                <li><i class="fa fa-download" aria-hidden="true"></i></li>
-                <li><i class="fa fa-behance" aria-hidden="true"></i></li>        
+                <li><i class="fa fa-download" aria-hidden="true"></i></li>        
             </ul>
         </div>
     </div>

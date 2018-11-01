@@ -12316,6 +12316,9 @@ td.uk-text-break {
 #about {
   background-color: #F0F0F0;
 }
+#about .intro {
+  padding-top: 20px;
+}
 /***
 
     ##### Skills #####
