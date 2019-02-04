@@ -12189,6 +12189,9 @@ td.uk-text-break {
 .nav .lastname {
   color: #f29400;
 }
+.nav .logo_home {
+  text-decoration: none;
+}
 .list {
   list-style: none;
   margin: 0;
@@ -12341,6 +12344,9 @@ td.uk-text-break {
 #portfolio .header {
   text-align: center;
 }
+#portfolio .portfolio {
+  padding-top: 15px;
+}
 /***
 
     ##### callout #####
@@ -12356,6 +12362,9 @@ td.uk-text-break {
 }
 #callout .text {
   color: white;
+}
+#callout .resume {
+  text-decoration: none;
 }
 /***
 
