@@ -1,5 +1,5 @@
 <div class="uk-cover-container" id="hero" uk-height-viewport>
-    <?php require('templates/navigation.php'); ?>
+    <?php require('navigation.php'); ?>
     <div class="uk-container uk-text-center">
         <h1 class="uk-padding-small f-name" uk-scrollspy="cls:uk-animation-slide-top-small; delay: 300; repeat: true">Mary <span class="l-name">Green</span></h1>
         <h2 uk-scrollspy="cls:uk-animation-slide-top-small; delay: 600; repeat: true">A Web Developer. Anime and Gamer Nerd</h2>

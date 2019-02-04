@@ -1,0 +1,10 @@
+<?php require('partials/header.php'); ?>
+<?php require('partials/offcanvas.php'); ?>
+<?php require('partials/hero.php'); ?>
+<?php require('partials/welcome.php'); ?>
+<?php require('partials/about.php') ?>
+<?php require('partials/skills.php'); ?>
+<?php require('partials/portfolio.php'); ?>
+<?php require('partials/callout.php'); ?>
+<?php require('partials/contact.php'); ?>
+<?php require('partials/footer.php'); ?>
