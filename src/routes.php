@@ -3,6 +3,7 @@
 use Slim\Http\Request;
 use Slim\Http\Response;
 
+
 // Routes
 
 $app->get('/', function (Request $request, Response $response, array $args) {
@@ -42,6 +43,17 @@ $app->post('/contact', function (Request $request, Response $response, array $ar
         return $response->withJson(array('errors' => $errors));
     }else{
         //Send email here...
-        return $response->withJson(array('success' => "Message successfully sent. Thank you {$firstname}!"));
+        $sg = new \SendGrid\Mail\Mail(); 
+        $sg->setFrom($email, "{$firstname} {$lastname}");
+        $sg->setSubject("New contact form message.");
+        $sg->addTo("magreen451@gmail.com", "Mary Green");
+        $sg->addContent("text/plain", $message);
+        $sendgrid = new \SendGrid('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');
+        try {
+            $sg_response = $sendgrid->send($sg);
+            return $response->withJson(array('success' => "Message successfully sent. Thank you {$firstname}!",'response' => $sg_response, 'body' => $sg_response->body(), 'status' => $sg_response->statusCode()));
+        } catch (Exception $e) {
+           return  $response->withJson(array('error' => 'Exception when calling AccountApi->getAccount: ', $e->getMessage(), PHP_EOL));
+        }
     }
 });
