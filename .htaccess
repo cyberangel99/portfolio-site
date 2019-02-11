@@ -1,0 +1,5 @@
+<IfModule mod_rewrite.c>
+   RewriteEngine on
+   RewriteRule ^$ marygreen.co/     [L]
+   RewriteRule (.*) marygreen.co/ [L]
+</IfModule>
