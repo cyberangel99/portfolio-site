@@ -12311,6 +12311,9 @@ td.uk-text-break {
 #welcome {
   background-color: #F0F0F0;
 }
+#welcome .text_1 {
+  padding-top: 6%;
+}
 /***
 
     ##### About #####
