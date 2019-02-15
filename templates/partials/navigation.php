@@ -9,11 +9,13 @@
                 <li><a href="#portfolio"><i class="fa fa-laptop"></i>Portfolio</a></li>
                 <li><a href="#contact"><i class="fa fa-envelope"></i>Contact Me</a></li>
             </ul>
-            <i class="fa fa-bars uk-hidden@s canvas uk-align-left" uk-toggle="target: #offcanvas" aria-hidden="true"></i>
-        </div>
-        <div class="uk-width-1-4@s uk-width-1-2 uk-text-center firstname">
-            <a href="/" class="logo_home"><img class="uk-responsive-width uk-responsive-height logo" src="./assets/images/codelogo2.png" alt="logo"/> 
+           <div class="uk-width-1-4@s uk-text-center firstname">
+                <a href="/" class="logo_home"><img class="uk-responsive-width uk-responsive-height logo" src="./assets/images/codelogo2.png" alt="logo"/> 
                 mary<span class="lastname">green</span></a>
-        </div>
+            </div>
+                <i class="fa fa-bars uk-hidden@s canvas uk-align-right" uk-toggle="target: #offcanvas" aria-hidden="true"></i>
+        </div>   
     </div>
+
 </nav>
+    

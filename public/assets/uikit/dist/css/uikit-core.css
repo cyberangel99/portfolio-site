@@ -11859,6 +11859,9 @@ td.uk-text-break {
   border: 1px solid #C21807;
   transition: all ease .4s;
 }
+#contact .email a {
+  color: blue;
+}
 /*** 
     ### footer#### 
 
