@@ -23,6 +23,12 @@ $(document).ready(function () {
             })
         }
     })
+
+    //offcanvas navigation 
+    $('.links a').click(function() {
+        UIkit.offcanvas('#offcanvas').hide()
+    })
+
 });
 
 function postContactData(form, formData) {
@@ -81,4 +87,5 @@ function checkForErrors() {
     }
 
     return errors
+
 }
