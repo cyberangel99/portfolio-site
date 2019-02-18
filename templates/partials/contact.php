@@ -4,7 +4,7 @@
             uk-scrollspy="cls: uk-animation-slide-bottom-medium; repeat: true; delay:500"><img
                 src="./assets/images/contactme.png" alt="contact me" />
         </div>
-        <div class="uk-width-1-2@m text_2 uk-text-center" uk-scrollspy="cls: uk-animation-slide-top-medium; repeat: true; delay:500">
+        <div class="uk-width-1-2@m focus uk-text-center" uk-scrollspy="cls: uk-animation-slide-top-medium; repeat: true; delay:500">
                 <h2 class="uk-margin-remove">Contact me</h2>
                 <p>If you are interested in my portfolio and have a position available, contact me anytime. I am
                     interested in a full-time Front End Web Developer position.</p>

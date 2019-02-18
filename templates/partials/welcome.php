@@ -7,7 +7,7 @@
                     <p>Hi! My name is Mary and thanks for visiting my site! Why don't you stay for awhile? ;) You'll learn that
                         I have a love for developing websites. I currently use Uikit frameworks but I also dabbled in bootstrap
                         as well. I love the clean, single page, modern design of web pages nowadays.</p>
-                    <p>I am currently working on projects for my portfolio, please review my portfolio and my Github for my
+                    <p>I am currently working on projects for my portfolio, please review my portfolio and Github for my
                         source code.</p>
             </div>
         </div>
