@@ -1,6 +1,7 @@
 ##  Start Project
     composer start
 
+then type localhost:5000 on chrome web address
 
 ##  Run Uikit
 
