@@ -13,6 +13,7 @@
                 <li><a href="https://github.com/cyberangel99" target="_blank"><i class="fa fa-github" aria-hidden="true"></a></i></li>
                 <li><a href="https://www.linkedin.com/in/mary-green-4295ab149/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></a></i></li>
                 <li><a href="https://twitter.com/magreen451" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></a></i></li>
+                <li><a href="https://www.behance.net/gallery/84334777/Comptex-Service-website?" target="_blank"><i class="fa fa-behance-square" aria-hidden="true"></i></li>
                 <li><a href="https://docs.google.com/document/d/1W8TguX53U9jCRtbAb3L_Eco8ow7UPSr4hYTTzOhd5RQ/edit?usp=sharing" target="_blank"><i class="fa fa-download" aria-hidden="true"></a></i></li>        
             </ul>
         </div>
