@@ -14,7 +14,8 @@
                     <li>jQuery</li>
                     <li>SASS/LESS</li>
                     <li>UiKit</li>
-                    <li>Bootstrap</li>
+                    <li>Bootstrap 4</li>
+                    <li>Wordpress</li>
                 </ul>
             </div>
         </div>
