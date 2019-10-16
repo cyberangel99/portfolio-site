@@ -10,7 +10,7 @@
             <h2>Next Generation</h2>
             <p>A UX/UI static website that sells clothing for expressive, hipster and alternative people. You can search for products and add and remove from the shopping cart. Built in Bootstrap 4, jquery/javascript, html, and css. </p>
         </div>
-        <div class="uk-width-1-3@m" uk-scrollspy="cls:uk-animation-fade; repeat:true; delay: 500"><a href="https://www.behance.net/gallery/84334777/Comptex-Service-website?" target="_blank"><img src="./assets/images/comptex.jpg" alt="portfolio 3"/></a>
+        <div class="uk-width-1-3@m" uk-scrollspy="cls:uk-animation-fade; repeat:true; delay: 500"><a href="https://www.comptexservice.net" target="_blank"><img src="./assets/images/comptex.jpg" alt="portfolio 3"/></a>
         <h2>Comptex Service</h2>
             <p>An IT consulting website for a small company. Built with Wordpress, html, jquery/javascript, and css.</p>
         </div>
